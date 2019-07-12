@@ -1,7 +1,7 @@
 # 🔮 Express 
 
- [CLIENT-SERVER](#CLIENT-SERVER)
- [RESOURCE](#resource-----gives-you-the-data-img-test-html-temperary-serves)
+ - [CLIENT-SERVER](#CLIENT-SERVER)
+ - [RESOURCE](#resource-----gives-you-the-data-img-test-html-temperary-serves)
 
 # RESTful API
 
@@ -62,17 +62,21 @@ that corresponds to the mapping at any particular point in time.
 Roy Fielding’s
 
 
-# 1) COLLECTION   /customers   
+ 1) COLLECTION   /customers   
 -   * customers will return data  Array / or empty Array 
 - 
 
-# 2) SINGLETON      /manager
-# 3) SINGLETON      /customers/{customerId} ✅
+ 2) SINGLETON      /manager
+- 1. go get 1 user by id 
+- 2. only 1 json data should be
 
-# 4) SUB-COLLECTION /customers/{customerId}/accounts
+
+3) SINGLETON      /customers/{customerId} ✅
+
+ 4) SUB-COLLECTION /customers/{customerId}/accounts
 - shoud return Array
 
-# 5) SUB-COLLECTION /customers/{customerId}/accounts/{accountId}
+ 5) SUB-COLLECTION /customers/{customerId}/accounts/{accountId}
 
 # ENTITIES 
     � Document
