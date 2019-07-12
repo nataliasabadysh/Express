@@ -1,7 +1,7 @@
 # 🔮 Express 
 
  [CLIENT-SERVER](#CLIENT-SERVER)
- [RESOURCE](#RESOURCE)
+ [RESOURCE](#resource-----gives-you-the-data-img-test-html-temperary-serves)
 
 # RESTful API
 
